@@ -15,7 +15,7 @@ import {
 import axios from "axios";
 
 function App() {
-  const baseUrl = "https://202.157.176.100:3000";
+  const baseUrl = "http://202.157.176.100:3000";
   const [form] = Form.useForm();
   const [negara, setnegara] = useState([]);
   const [loadingNegara, setLoadingNegara] = useState(false);
