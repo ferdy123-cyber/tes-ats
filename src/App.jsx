@@ -210,7 +210,7 @@ function App() {
                         width: "100%",
                       }
                 }
-                disabled={!formValue.barang}
+                disabled
                 onChange={() => {
                   updateVersion();
                 }}
@@ -231,7 +231,7 @@ function App() {
                         width: "100%",
                       }
                 }
-                disabled={!formValue.barang}
+                disabled
                 onChange={() => {
                   updateVersion();
                 }}
